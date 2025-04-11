@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+    --color-my-black: #000000; 
+    --color-my-white: #FFFFFF; 
+    --color-my-off-white: #FFFFFF; 
+    --color-my-orange: #FF8000; 
+    --color-my-highlight: #243c5a; 
+  }
