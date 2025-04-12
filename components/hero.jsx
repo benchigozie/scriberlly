@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import heroImg from '../src/assets/images/heroimage.webp';
 
 function Hero() {
     
     
-
+    
   return (
     <section className='h-[100vh] relative w-full'>
         <img 
