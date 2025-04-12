@@ -3,7 +3,22 @@
 @theme {
     --color-my-black: #000000; 
     --color-my-white: #FFFFFF; 
-    --color-my-off-white: #FFFFFF; 
+    --color-my-off-white: #faf9f7;
     --color-my-orange: #FF8000; 
-    --color-my-highlight: #243c5a; 
+    --color-my-highlight: #f2ac50;
+
+
+    --font-inter: 'Inter', sans-serif;
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    src: url('/src/assets/fonts/Inter_18pt-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  .navbar a:hover {
+    color: var(--color-my-highlight);
   }

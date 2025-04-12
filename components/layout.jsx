@@ -1,12 +1,16 @@
 import React from 'react';
 import Header from './header';
 import Footer from './footer';
+import { Outlet } from 'react-router-dom';
 
-const Layout = ({ children }) => {
+const Layout = () => {
+ 
     return (
-      <div>
+      <div className='px-4 lg:px-4'>
         <Header />
-        <main>{children}</main>
+        <main className='pt-14'>
+          <Outlet />
+        </main>
         <Footer />
       </div>
     );
