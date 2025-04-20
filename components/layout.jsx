@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './header';
 import Footer from './footer';
 import { Outlet } from 'react-router-dom';
+import Contact from '../components/contact';
 
 const Layout = () => {
  
@@ -11,6 +12,7 @@ const Layout = () => {
         <main className=''>
           <Outlet />
         </main>
+        <Contact />
         <Footer />
       </div>
     );

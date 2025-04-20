@@ -31,7 +31,6 @@ function Header() {
       observer.observe(scrollRef.current);
     }
 
-    console.log(heroVisible);
     return () => {
       if (scrollRef.current) observer.unobserve(scrollRef.current);
 

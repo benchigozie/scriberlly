@@ -14,7 +14,7 @@ function Welcome() {
           backDelay: 5000,
           loop: true,
           showCursor: true,
-          cursorChar: '.',
+          cursorChar: '|',
         });
     
         return () => typed.destroy(); 
